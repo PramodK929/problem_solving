@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class FindAllAnagram438 {
     public static void main(String[] args) {

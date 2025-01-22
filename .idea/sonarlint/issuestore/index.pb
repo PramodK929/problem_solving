@@ -24,3 +24,11 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ;
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+n
+>src/main/java/leetcode/prefixsum/FindThePivotInteger_2485.java,7/b/7bb7db55908825fa303dd2fd9fcab8e497467038
+e
+5src/main/java/leetcode/StringMatchingInArray1408.java,e/0/e0bc55abc9df12b8b0123d476bbb727fa820f653
+]
+-src/main/java/leetcode/FindAllAnagram438.java,d/a/dad9e70a13114fe097e2a28799641f6631e7cecc
