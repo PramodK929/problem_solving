@@ -12,23 +12,14 @@ public class FindThePivotInteger_2485 {
     }
 
     private static int pivotInteger(int n) {
-        int[] left = new int[n];
+        int[] left = new int[n+1];
         int sum = 0;
+        int total = n*(n+1)/2;
         for(int i=1; i<=n; i++) {
-            left[i-1] = sum + i;
-            sum = left[i-1];
-        }
-        int[] right = new int[n];
-        sum = 0;
-        for(int i=n; i>0; i--) {
-            right[i-1] = sum + i;
-            sum = right[i-1];
-        }
-
-        for(int i=0;i<left.length; i++) {
-            if(left[i] == right[i]) {
-                return i+1;
-            }
+            left[i] = sum + i;
+            sum = left[i];
+            if(left[i] == total - left[i-1])
+                return i;
         }
         return -1;
     }
